@@ -18,8 +18,9 @@ const Hero = (data, i) => {
         <img
             className="hero-thumbnail" key={data.data ? data.data.id : ''}
             src={filePath + fileName} alt={`hero portrait of ` + { name }}></img>
+
+        <p className="hero-name"> {name}</p>
         <p> {atkType}</p>
-        <p> {name}</p>
         <ul>
             {roles.map(role => {
                 return (

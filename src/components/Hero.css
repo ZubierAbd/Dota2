@@ -11,10 +11,17 @@
     width: 33vh;
     align-content: center;
     text-align: center;
-    background-color:rgba(20,20,20,0.9);
+    background-color:rgba(23, 6, 51, 0.9);
   }
 
   .hero-box:hover {
       transition: 0.4s ease;
       background: rgba(255,255,255,0.2);
+  }
+
+  .hero-box .hero-name {
+      font-weight: 900;
+      font-size: 30px;
+      margin: 12px 0;
+      text-shadow: 3px 3px rgba(0,0,0,0.3);
   }
